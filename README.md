@@ -1,327 +1,325 @@
-# WP Testimonial Walls
+# **WP Testimonial Walls**
 
-Ein professionelles WordPress-Plugin zum Erstellen und Anzeigen mehrerer Testimonial-Wände. Jede Wall zeigt Aussagen von Personen oder Unternehmen, wobei der Name im Vordergrund steht und bei Firmen optional ein Logo erscheint.
+A professional WordPress plugin for creating and displaying multiple testimonial walls. Each wall shows statements from people or companies, with the name in the foreground and an optional logo for companies.
 
-## 🚀 Features
+## **🚀 Features**
 
-### Kernfunktionen
-- **Mehrere Testimonial-Wände**: Erstellen Sie unbegrenzt viele Wände für verschiedene Zwecke
-- **Wiederverwendbare Testimonials**: Ein Testimonial kann mehreren Wänden zugeordnet werden
-- **Flexible Layouts**: Grid, Slider und Masonry-Layouts verfügbar
-- **Responsive Design**: Funktioniert perfekt auf allen Geräten
-- **Drag & Drop**: Einfache Verwaltung der Testimonial-Reihenfolge
+### **Core Functions**
 
-### Darstellungsoptionen
-- **Shortcode-Integration**: `[wp_testimonial_wall id="123"]`
-- **Gutenberg-Block**: Mit Live-Vorschau im Editor
-- **Layout-Optionen**: Grid (1-4 Spalten), Slider, Masonry
-- **Logo-Unterstützung**: Optionale Firmenlogos mit Lazy Loading
+* **Multiple Testimonial Walls**: Create unlimited walls for different purposes  
+* **Reusable Testimonials**: A testimonial can be assigned to multiple walls  
+* **Flexible Layouts**: Grid, Slider, and Masonry layouts available  
+* **Responsive Design**: Works perfectly on all devices  
+* **Drag & Drop**: Easy management of testimonial order
 
-### Performance & SEO
-- **Caching-System**: Transients für optimale Performance (≤50KB Assets)
-- **Lazy Loading**: Für Bilder und Logos
-- **Strukturierte Daten**: Schema.org für bessere SEO
-- **DSGVO-konform**: Keine externen CDNs oder Tracker
+### **Display Options**
 
-### Barrierefreiheit
-- **WCAG 2.1 AA konform**: Vollständige Barrierefreiheit
-- **ARIA-Labels**: Für Screenreader optimiert
-- **Tastatursteuerung**: Vollständige Navigation per Tastatur
-- **RTL-Unterstützung**: Für Rechts-nach-Links-Sprachen
+* **Shortcode Integration**: \[wp\_testimonial\_wall id="123"\]  
+* **Gutenberg Block**: With live preview in the editor  
+* **Layout Options**: Grid (1-4 columns), Slider, Masonry  
+* **Logo Support**: Optional company logos with lazy loading
 
-## 📋 Systemanforderungen
+### **Performance & SEO**
 
-- **WordPress**: 6.0 oder höher
-- **PHP**: 8.1 oder höher
-- **MySQL**: 5.7 oder höher
+* **Caching System**: Transients for optimal performance (≤50KB assets)  
+* **Lazy Loading**: For images and logos  
+* **Structured Data**: Schema.org for better SEO  
+* **GDPR Compliant**: No external CDNs or trackers
 
-## 🛠 Installation
+### **Accessibility**
 
-### Automatische Installation
-1. WordPress Admin → Plugins → Neu hinzufügen
-2. Nach "WP Testimonial Walls" suchen
-3. Installieren und aktivieren
+* **WCAG 2.1 AA Compliant**: Full accessibility  
+* **ARIA Labels**: Optimized for screen readers  
+* **Keyboard Control**: Full keyboard navigation  
+* **RTL Support**: For right-to-left languages
 
-### Manuelle Installation
-1. Plugin-Dateien in `/wp-content/plugins/wp-testimonial-walls/` hochladen
-2. Plugin in WordPress Admin aktivieren
-3. Zu "Testimonial Walls" im Admin-Menü navigieren
+## **📋 System Requirements**
 
-## 🎯 Schnellstart
+* **WordPress**: 6.0 or higher  
+* **PHP**: 8.1 or higher  
+* **MySQL**: 5.7 or higher
 
-### 1. Erstes Testimonial erstellen
-```
-Admin → Testimonial Walls → Add New Testimonial
-- Titel: Aussage/Zitat eingeben
-- Name der Person: [Erforderlich]
-- Unternehmen: [Optional]
-- Logo: [Optional, empfohlen 200x100px]
-```
+## **🛠 Installation**
 
-### 2. Testimonial-Wand erstellen
-```
-Admin → Testimonial Walls → Add New Wall
-- Titel der Wand eingeben
-- Layout wählen (Grid/Slider/Masonry)
-- Testimonials zuordnen (Drag & Drop)
-- Einstellungen konfigurieren
-```
+### **Automatic Installation**
 
-### 3. Wand anzeigen
-```html
-<!-- Shortcode -->
-[wp_testimonial_wall id="123"]
+1. WordPress Admin → Plugins → Add New  
+2. Search for "WP Testimonial Walls"  
+3. Install and activate
 
-<!-- Mit Optionen -->
-[wp_testimonial_wall id="123" layout="slider" columns="3" show_logos="true"]
-```
+### **Manual Installation**
 
-## 📖 Verwendung
+1. Upload plugin files to /wp-content/plugins/wp-testimonial-walls/  
+2. Activate the plugin in WordPress Admin  
+3. Navigate to "Testimonial Walls" in the admin menu
 
-### Shortcode-Parameter
+## **🎯 Quick Start**
 
-| Parameter | Typ | Standard | Beschreibung |
-|-----------|-----|----------|--------------|
-| `id` | Integer | - | **Erforderlich**: ID der Testimonial-Wand |
-| `layout` | String | Wall-Standard | Layout überschreiben: `grid`, `slider`, `masonry` |
-| `columns` | Integer | Wall-Standard | Spaltenanzahl (1-4, nur Grid/Masonry) |
-| `show_logos` | Boolean | Wall-Standard | Logos anzeigen: `true`, `false` |
-| `class` | String | - | Zusätzliche CSS-Klasse |
+### **1\. Create Your First Testimonial**
 
-### Beispiele
+Admin → Testimonial Walls → Add New Testimonial  
+\- Title: Enter statement/quote  
+\- Person's Name: \[Required\]  
+\- Company: \[Optional\]  
+\- Logo: \[Optional, recommended 200x100px\]
 
-```html
-<!-- Basis-Verwendung -->
-[wp_testimonial_wall id="123"]
+### **2\. Create a Testimonial Wall**
 
-<!-- Grid mit 2 Spalten -->
-[wp_testimonial_wall id="123" layout="grid" columns="2"]
+Admin → Testimonial Walls → Add New Wall  
+\- Enter wall title  
+\- Choose a layout (Grid/Slider/Masonry)  
+\- Assign testimonials (Drag & Drop)  
+\- Configure settings
 
-<!-- Slider ohne Logos -->
-[wp_testimonial_wall id="123" layout="slider" show_logos="false"]
+### **3\. Display the Wall**
 
-<!-- Mit eigener CSS-Klasse -->
-[wp_testimonial_wall id="123" class="my-custom-testimonials"]
-```
+\<\!-- Shortcode \--\>  
+\[wp\_testimonial\_wall id="123"\]
 
-### Gutenberg-Block
+\<\!-- With options \--\>  
+\[wp\_testimonial\_wall id="123" layout="slider" columns="3" show\_logos="true"\]
 
-1. **Block hinzufügen**: "Testimonial Wall" im Block-Inserter suchen
-2. **Wand auswählen**: Aus Dropdown-Liste wählen
-3. **Optionen anpassen**: Layout, Spalten, Logos in der Seitenleiste
-4. **Live-Vorschau**: Sofortige Vorschau im Editor
+## **📖 Usage**
 
-## 🎨 Anpassung
+### **Shortcode Parameters**
 
-### CSS-Variablen
-```css
-:root {
-  --testimonial-primary-color: #0073aa;
-  --testimonial-text-color: #333;
-  --testimonial-background: #fff;
-  --testimonial-border-radius: 8px;
-  --testimonial-spacing: 1.5rem;
+| Parameter | Type | Default | Description |
+| :---- | :---- | :---- | :---- |
+| id | Integer | \- | **Required**: ID of the testimonial wall |
+| layout | String | Wall default | Override layout: grid, slider, masonry |
+| columns | Integer | Wall default | Number of columns (1-4, Grid/Masonry only) |
+| show\_logos | Boolean | Wall default | Show logos: true, false |
+| class | String | \- | Additional CSS class |
+
+### **Examples**
+
+\<\!-- Basic usage \--\>  
+\[wp\_testimonial\_wall id="123"\]
+
+\<\!-- Grid with 2 columns \--\>  
+\[wp\_testimonial\_wall id="123" layout="grid" columns="2"\]
+
+\<\!-- Slider without logos \--\>  
+\[wp\_testimonial\_wall id="123" layout="slider" show\_logos="false"\]
+
+\<\!-- With custom CSS class \--\>  
+\[wp\_testimonial\_wall id="123" class="my-custom-testimonials"\]
+
+### **Gutenberg Block**
+
+1. **Add Block**: Search for "Testimonial Wall" in the block inserter  
+2. **Select Wall**: Choose from the dropdown list  
+3. **Adjust Options**: Configure layout, columns, and logos in the sidebar  
+4. **Live Preview**: Instant preview in the editor
+
+## **🎨 Customization**
+
+### **CSS Variables**
+
+:root {  
+  \--testimonial-primary-color: \#0073aa;  
+  \--testimonial-text-color: \#333;  
+  \--testimonial-background: \#fff;  
+  \--testimonial-border-radius: 8px;  
+  \--testimonial-spacing: 1.5rem;  
 }
-```
 
-### BEM-CSS-Klassen
-```css
-.wp-testimonial-wall { /* Haupt-Container */ }
-.wp-testimonial-wall__container { /* Testimonial-Container */ }
-.wp-testimonial-wall__item { /* Einzelnes Testimonial */ }
-.wp-testimonial-wall__content { /* Testimonial-Text */ }
-.wp-testimonial-wall__author { /* Autor-Bereich */ }
-.wp-testimonial-wall__name { /* Name der Person */ }
-.wp-testimonial-wall__company { /* Firmenname */ }
-.wp-testimonial-wall__logo { /* Firmenlogo */ }
-```
+### **BEM CSS Classes**
 
-### Layout-spezifische Klassen
-```css
-.wp-testimonial-wall--grid { /* Grid-Layout */ }
-.wp-testimonial-wall--slider { /* Slider-Layout */ }
-.wp-testimonial-wall--masonry { /* Masonry-Layout */ }
-.wp-testimonial-wall--columns-3 { /* 3-Spalten-Layout */ }
-```
+.wp-testimonial-wall { /\* Main container \*/ }  
+.wp-testimonial-wall\_\_container { /\* Testimonial container \*/ }  
+.wp-testimonial-wall\_\_item { /\* Single testimonial \*/ }  
+.wp-testimonial-wall\_\_content { /\* Testimonial text \*/ }  
+.wp-testimonial-wall\_\_author { /\* Author area \*/ }  
+.wp-testimonial-wall\_\_name { /\* Person's name \*/ }  
+.wp-testimonial-wall\_\_company { /\* Company name \*/ }  
+.wp-testimonial-wall\_\_logo { /\* Company logo \*/ }
 
-## ⚙️ Konfiguration
+### **Layout-Specific Classes**
 
-### Plugin-Einstellungen
-```
+.wp-testimonial-wall--grid { /\* Grid layout \*/ }  
+.wp-testimonial-wall--slider { /\* Slider layout \*/ }  
+.wp-testimonial-wall--masonry { /\* Masonry layout \*/ }  
+.wp-testimonial-wall--columns-3 { /\* 3-column layout \*/ }
+
+## **⚙️ Configuration**
+
+### **Plugin Settings**
+
 Admin → Testimonial Walls → Settings
 
-Cache-Dauer: 3600 Sekunden (Standard)
-Lazy Loading: Aktiviert (empfohlen)
-RTL-Unterstützung: Aktiviert
-Strukturierte Daten: Aktiviert (SEO)
-```
+Cache Duration: 3600 seconds (default)  
+Lazy Loading: Enabled (recommended)  
+RTL Support: Enabled  
+Structured Data: Enabled (SEO)
 
-### Performance-Optimierung
-- **Cache-Dauer**: Anpassen je nach Aktualisierungshäufigkeit
-- **Lazy Loading**: Für bessere Ladezeiten aktiviert lassen
-- **Bildgrößen**: Logos optimal bei 200x100px
-- **Testimonial-Länge**: Kurze, prägnante Texte bevorzugen
+### **Performance Optimization**
 
-## 🔧 Entwicklung
+* **Cache Duration**: Adjust based on update frequency  
+* **Lazy Loading**: Keep enabled for better loading times  
+* **Image Sizes**: Logos are optimal at 200x100px  
+* **Testimonial Length**: Prefer short, concise texts
 
-### Hooks & Filter
+## **🔧 Development**
 
-#### Actions
-```php
-// Nach Plugin-Initialisierung
-do_action('wp_testimonial_walls_init');
+### **Hooks & Filters**
 
-// Nach Testimonial-Speicherung
-do_action('wp_testimonial_walls_testimonial_saved', $testimonial_id);
+#### **Actions**
 
-// Nach Wall-Speicherung
-do_action('wp_testimonial_walls_wall_saved', $wall_id);
-```
+// After plugin initialization  
+do\_action('wp\_testimonial\_walls\_init');
 
-#### Filter
-```php
-// Testimonial-Ausgabe anpassen
-apply_filters('wp_testimonial_walls_testimonial_content', $content, $testimonial);
+// After testimonial is saved  
+do\_action('wp\_testimonial\_walls\_testimonial\_saved', $testimonial\_id);
 
-// Wall-Einstellungen anpassen
-apply_filters('wp_testimonial_walls_wall_settings', $settings, $wall_id);
+// After wall is saved  
+do\_action('wp\_testimonial\_walls\_wall\_saved', $wall\_id);
 
-// CSS-Klassen anpassen
-apply_filters('wp_testimonial_walls_css_classes', $classes, $wall_id);
-```
+#### **Filters**
 
-### Eigene Layouts erstellen
-```php
-// Layout registrieren
-add_filter('wp_testimonial_walls_layouts', function($layouts) {
-    $layouts['custom'] = __('Custom Layout', 'textdomain');
-    return $layouts;
+// Adjust testimonial output  
+apply\_filters('wp\_testimonial\_walls\_testimonial\_content', $content, $testimonial);
+
+// Adjust wall settings  
+apply\_filters('wp\_testimonial\_walls\_wall\_settings', $settings, $wall\_id);
+
+// Adjust CSS classes  
+apply\_filters('wp\_testimonial\_walls\_css\_classes', $classes, $wall\_id);
+
+### **Create Custom Layouts**
+
+// Register layout  
+add\_filter('wp\_testimonial\_walls\_layouts', function($layouts) {  
+    $layouts\['custom'\] \= \_\_('Custom Layout', 'textdomain');  
+    return $layouts;  
 });
 
-// Layout-Template
-add_action('wp_testimonial_walls_render_layout_custom', function($testimonials, $settings) {
-    // Eigene Layout-Logik hier
+// Layout template  
+add\_action('wp\_testimonial\_walls\_render\_layout\_custom', function($testimonials, $settings) {  
+    // Custom layout logic here  
 });
-```
 
-## 🌍 Mehrsprachigkeit
+## **🌍 Multilingual**
 
-### Unterstützte Sprachen
-- **Deutsch** (de_DE) - Vollständig übersetzt
-- **Englisch** (en_US) - Standard
+### **Supported Languages**
 
-### Eigene Übersetzungen
-1. `.pot`-Datei aus `/languages/` verwenden
-2. Mit Poedit oder ähnlichem Tool übersetzen
-3. `.po` und `.mo` Dateien in `/languages/` speichern
-4. Format: `wp-testimonial-walls-{locale}.po`
+* **German** (de\_DE) \- Fully translated  
+* **English** (en\_US) \- Default
 
-## 🚨 Fehlerbehebung
+### **Custom Translations**
 
-### Häufige Probleme
+1. Use the .pot file from /languages/  
+2. Translate with Poedit or a similar tool  
+3. Save .po and .mo files in /languages/  
+4. Format: wp-testimonial-walls-{locale}.po
 
-#### Testimonials werden nicht angezeigt
-```
-✓ Wall-ID korrekt?
-✓ Testimonials der Wall zugeordnet?
-✓ Wall veröffentlicht?
-✓ Cache geleert?
-```
+## **🚨 Troubleshooting**
 
-#### Styling-Probleme
-```
-✓ Theme-Konflikte prüfen
-✓ CSS-Spezifität erhöhen
-✓ Browser-Cache leeren
-✓ Plugin-CSS aktiviert?
-```
+### **Common Problems**
 
-#### Performance-Probleme
-```
-✓ Cache-Einstellungen prüfen
-✓ Lazy Loading aktiviert?
-✓ Bildgrößen optimiert?
-✓ Testimonial-Anzahl reduzieren?
-```
+#### **Testimonials are not displayed**
 
-### Debug-Modus
-```php
-// In wp-config.php
-define('WP_DEBUG', true);
-define('WP_DEBUG_LOG', true);
+✓ Is the wall ID correct?  
+✓ Are testimonials assigned to the wall?  
+✓ Is the wall published?  
+✓ Have you cleared the cache?
 
-// Plugin-spezifisches Debugging
-define('WP_TESTIMONIAL_WALLS_DEBUG', true);
-```
+#### **Styling Issues**
 
-## 📊 Wartung
+✓ Check for theme conflicts  
+✓ Increase CSS specificity  
+✓ Clear browser cache  
+✓ Is plugin CSS enabled?
 
-### Cache verwalten
-```
-Admin → Testimonial Walls → Settings → Maintenance
-- Cache leeren: Alle zwischengespeicherten Daten entfernen
-- Datenbank bereinigen: Verwaiste Beziehungen entfernen
-```
+#### **Performance Issues**
 
-### Backup-Empfehlungen
-- **Datenbank**: Regelmäßige Backups der WordPress-Datenbank
-- **Uploads**: Backup des `/wp-content/uploads/` Ordners für Logos
-- **Plugin-Einstellungen**: Export über WordPress-Tools
+✓ Check cache settings  
+✓ Is lazy loading enabled?  
+✓ Are image sizes optimized?  
+✓ Reduce the number of testimonials?
 
-## 🔒 Sicherheit
+### **Debug Mode**
 
-### Best Practices
-- **Berechtigungen**: Nur vertrauenswürdige Benutzer können Testimonials verwalten
-- **Eingabe-Validierung**: Alle Eingaben werden sanitized und validiert
-- **Nonces**: Schutz vor CSRF-Angriffen
-- **Capability-Checks**: Berechtigungsprüfung bei allen Aktionen
+// In wp-config.php  
+define('WP\_DEBUG', true);  
+define('WP\_DEBUG\_LOG', true);
 
-### DSGVO-Konformität
-- **Keine externen Requests**: Alle Assets werden lokal geladen
-- **Keine Tracking-Cookies**: Plugin setzt keine Cookies
-- **Datenminimierung**: Nur notwendige Daten werden gespeichert
-- **Löschung**: Vollständige Entfernung bei Plugin-Deinstallation
+// Plugin-specific debugging  
+define('WP\_TESTIMONIAL\_WALLS\_DEBUG', true);
 
-## 📈 Updates
+## **📊 Maintenance**
 
-### Automatische Updates
-- Plugin unterstützt WordPress Auto-Updates
-- Datenbank-Migrationen werden automatisch durchgeführt
-- Einstellungen bleiben bei Updates erhalten
+### **Manage Cache**
 
-### Changelog
-Siehe [CHANGELOG.md](CHANGELOG.md) für detaillierte Versionshistorie.
+Admin → Testimonial Walls → Settings → Maintenance  
+\- Clear Cache: Remove all cached data  
+\- Clean Database: Remove orphaned relationships
 
-## 🤝 Support
+### **Backup Recommendations**
 
-### Community-Support
-- **GitHub Issues**: [Repository Issues](https://github.com/psart-scs/WP-Testimonial-Walls/issues)
-- **WordPress Forum**: Plugin-Support-Forum
-- **Dokumentation**: Vollständige Docs auf GitHub
+* **Database**: Regular backups of the WordPress database  
+* **Uploads**: Backup the /wp-content/uploads/ folder for logos  
+* **Plugin Settings**: Export via WordPress tools
 
-### Beitragen
-1. Repository forken
-2. Feature-Branch erstellen (`git checkout -b feature/AmazingFeature`)
-3. Änderungen committen (`git commit -m 'Add AmazingFeature'`)
-4. Branch pushen (`git push origin feature/AmazingFeature`)
-5. Pull Request erstellen
+## **🔒 Security**
 
-## 📄 Lizenz
+### **Best Practices**
 
-Dieses Plugin ist unter der GPL v2 oder höher lizenziert. Siehe [LICENSE](LICENSE) für Details.
+* **Permissions**: Only trusted users can manage testimonials  
+* **Input Validation**: All inputs are sanitized and validated  
+* **Nonces**: Protection against CSRF attacks  
+* **Capability Checks**: Permission checks for all actions
 
-## 👨‍💻 Autor
+### **GDPR Compliance**
+
+* **No External Requests**: All assets are loaded locally  
+* **No Tracking Cookies**: The plugin does not set any cookies  
+* **Data Minimization**: Only necessary data is stored  
+* **Deletion**: Full removal upon plugin uninstallation
+
+## **📈 Updates**
+
+### **Automatic Updates**
+
+* The plugin supports WordPress auto-updates  
+* Database migrations are performed automatically  
+* Settings are retained during updates
+
+### **Changelog**
+
+See [CHANGELOG.md](http://docs.google.com/CHANGELOG.md) for a detailed version history.
+
+## **🤝 Support**
+
+### **Community Support**
+
+* **GitHub Issues**: [Repository Issues](https://github.com/psart-scs/WP-Testimonial-Walls/issues)  
+* **WordPress Forum**: Plugin support forum  
+* **Documentation**: Full docs on GitHub
+
+### **Contributing**
+
+1. Fork the repository  
+2. Create a feature branch (git checkout \-b feature/AmazingFeature)  
+3. Commit your changes (git commit \-m 'Add AmazingFeature')  
+4. Push the branch (git push origin feature/AmazingFeature)  
+5. Open a Pull Request
+
+## **📄 License**
+
+This plugin is licensed under the GPL v2 or later. See [LICENSE](https://www.google.com/search?q=LICENSE) for details.
+
+## **👨‍💻 Author**
 
 **psart-scs**
-- GitHub: [@psart-scs](https://github.com/psart-scs)
-- Website: [psart-scs.com](https://psart-scs.com)
 
-## 🙏 Danksagungen
+* GitHub: [@psart-scs](https://github.com/psart-scs)  
+* Website: [psart-scs.com](https://psart-scs.com)
 
-- WordPress-Community für die ausgezeichnete Dokumentation
-- Alle Beta-Tester und Feedback-Geber
-- Open-Source-Bibliotheken und Tools
+## **🙏 Acknowledgments**
 
----
+* WordPress community for the excellent documentation  
+* All beta testers and feedback providers  
+* Open-source libraries and tools
 
 **Made with ❤️ for the WordPress Community**
