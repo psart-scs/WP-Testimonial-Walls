@@ -314,7 +314,6 @@ This plugin is licensed under the GPL v2 or later. See [LICENSE](https://www.goo
 **psart-scs**
 
 * GitHub: [@psart-scs](https://github.com/psart-scs)  
-* Website: [psart-scs.com](https://psart-scs.com)
 
 ## **🙏 Acknowledgments**
 
