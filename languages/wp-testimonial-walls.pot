@@ -1,0 +1,427 @@
+# Copyright (C) 2024 psart-scs
+# This file is distributed under the same license as the WP Testimonial Walls plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Testimonial Walls 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/psart-scs/WP-Testimonial-Walls/issues\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: wp-testimonial-walls\n"
+
+#: includes/class-admin.php:45
+msgid "Testimonial Walls"
+msgstr ""
+
+#: includes/class-admin.php:46
+msgid "All Walls"
+msgstr ""
+
+#: includes/class-admin.php:53
+msgid "Add New Wall"
+msgstr ""
+
+#: includes/class-admin.php:60
+msgid "Testimonials"
+msgstr ""
+
+#: includes/class-admin.php:67
+msgid "Add New Testimonial"
+msgstr ""
+
+#: includes/class-admin.php:74
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:95
+msgid "Total Walls"
+msgstr ""
+
+#: includes/class-admin.php:99
+msgid "Total Testimonials"
+msgstr ""
+
+#: includes/class-admin.php:103
+msgid "Total Assignments"
+msgstr ""
+
+#: includes/class-admin.php:108
+msgid "Create New Wall"
+msgstr ""
+
+#: includes/class-admin.php:111
+msgid "Add New Testimonial"
+msgstr ""
+
+#: includes/class-admin.php:117
+msgid "Recent Walls"
+msgstr ""
+
+#: includes/class-admin.php:121
+msgid "Wall"
+msgstr ""
+
+#: includes/class-admin.php:122
+msgid "Layout"
+msgstr ""
+
+#: includes/class-admin.php:124
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-admin.php:125
+msgid "Status"
+msgstr ""
+
+#: includes/class-admin.php:126
+msgid "Actions"
+msgstr ""
+
+#: includes/class-admin.php:144
+msgid "Edit"
+msgstr ""
+
+#: includes/class-admin.php:148
+msgid "Preview"
+msgstr ""
+
+#: includes/class-admin.php:160
+msgid "Testimonial Walls Settings"
+msgstr ""
+
+#: includes/class-admin.php:168
+msgid "Cache Duration"
+msgstr ""
+
+#: includes/class-admin.php:175
+msgid "Cache duration in seconds. Set to 0 to disable caching."
+msgstr ""
+
+#: includes/class-admin.php:181
+msgid "Lazy Loading"
+msgstr ""
+
+#: includes/class-admin.php:187
+msgid "Enable lazy loading for testimonial images"
+msgstr ""
+
+#: includes/class-admin.php:193
+msgid "RTL Support"
+msgstr ""
+
+#: includes/class-admin.php:199
+msgid "Enable RTL (Right-to-Left) language support"
+msgstr ""
+
+#: includes/class-admin.php:205
+msgid "Structured Data"
+msgstr ""
+
+#: includes/class-admin.php:211
+msgid "Add structured data (Schema.org) for SEO"
+msgstr ""
+
+#: includes/class-admin.php:216
+msgid "Maintenance"
+msgstr ""
+
+#: includes/class-admin.php:219
+msgid "Clear Cache"
+msgstr ""
+
+#: includes/class-admin.php:221
+msgid "Clear All Cache"
+msgstr ""
+
+#: includes/class-admin.php:225
+msgid "Clear all cached testimonial wall data."
+msgstr ""
+
+#: includes/class-admin.php:230
+msgid "Cleanup Database"
+msgstr ""
+
+#: includes/class-admin.php:232
+msgid "Cleanup Orphaned Data"
+msgstr ""
+
+#: includes/class-admin.php:236
+msgid "Remove orphaned relationships and clean up the database."
+msgstr ""
+
+#: includes/class-post-types.php:35
+msgid "Testimonial"
+msgstr ""
+
+#: includes/class-post-types.php:37
+msgid "Add New"
+msgstr ""
+
+#: includes/class-post-types.php:38
+msgid "Add New Testimonial"
+msgstr ""
+
+#: includes/class-post-types.php:39
+msgid "New Testimonial"
+msgstr ""
+
+#: includes/class-post-types.php:40
+msgid "Edit Testimonial"
+msgstr ""
+
+#: includes/class-post-types.php:41
+msgid "View Testimonial"
+msgstr ""
+
+#: includes/class-post-types.php:42
+msgid "All Testimonials"
+msgstr ""
+
+#: includes/class-post-types.php:43
+msgid "Search Testimonials"
+msgstr ""
+
+#: includes/class-post-types.php:44
+msgid "Parent Testimonials:"
+msgstr ""
+
+#: includes/class-post-types.php:45
+msgid "No testimonials found."
+msgstr ""
+
+#: includes/class-post-types.php:46
+msgid "No testimonials found in Trash."
+msgstr ""
+
+#: includes/class-post-types.php:50
+msgid "Testimonials for testimonial walls"
+msgstr ""
+
+#: includes/class-post-types.php:73
+msgid "Testimonial Walls"
+msgstr ""
+
+#: includes/class-post-types.php:75
+msgid "Walls"
+msgstr ""
+
+#: includes/class-post-types.php:78
+msgid "Add New Wall"
+msgstr ""
+
+#: includes/class-post-types.php:79
+msgid "New Wall"
+msgstr ""
+
+#: includes/class-post-types.php:80
+msgid "Edit Wall"
+msgstr ""
+
+#: includes/class-post-types.php:81
+msgid "View Wall"
+msgstr ""
+
+#: includes/class-post-types.php:82
+msgid "All Walls"
+msgstr ""
+
+#: includes/class-post-types.php:83
+msgid "Search Walls"
+msgstr ""
+
+#: includes/class-post-types.php:84
+msgid "Parent Walls:"
+msgstr ""
+
+#: includes/class-post-types.php:85
+msgid "No walls found."
+msgstr ""
+
+#: includes/class-post-types.php:86
+msgid "No walls found in Trash."
+msgstr ""
+
+#: includes/class-post-types.php:90
+msgid "Testimonial walls containing multiple testimonials"
+msgstr ""
+
+#: includes/class-post-types.php:115
+msgid "Testimonial Details"
+msgstr ""
+
+#: includes/class-post-types.php:123
+msgid "Wall Settings"
+msgstr ""
+
+#: includes/class-post-types.php:131
+msgid "Testimonials"
+msgstr ""
+
+#: includes/class-post-types.php:139
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-post-types.php:154
+msgid "Person Name"
+msgstr ""
+
+#: includes/class-post-types.php:159
+msgid "Name of the person giving the testimonial (required)"
+msgstr ""
+
+#: includes/class-post-types.php:164
+msgid "Company"
+msgstr ""
+
+#: includes/class-post-types.php:169
+msgid "Company or organization (optional)"
+msgstr ""
+
+#: includes/class-post-types.php:174
+msgid "Company Logo"
+msgstr ""
+
+#: includes/class-post-types.php:183
+msgid "Select Logo"
+msgstr ""
+
+#: includes/class-post-types.php:186
+msgid "Remove Logo"
+msgstr ""
+
+#: includes/class-post-types.php:190
+msgid "Company logo (optional, recommended size: 200x100px)"
+msgstr ""
+
+#: includes/class-post-types.php:205
+msgid "Layout"
+msgstr ""
+
+#: includes/class-post-types.php:210
+msgid "Grid"
+msgstr ""
+
+#: includes/class-post-types.php:211
+msgid "Slider"
+msgstr ""
+
+#: includes/class-post-types.php:212
+msgid "Masonry"
+msgstr ""
+
+#: includes/class-post-types.php:218
+msgid "Columns"
+msgstr ""
+
+#: includes/class-post-types.php:228
+msgid "Number of columns for grid and masonry layouts"
+msgstr ""
+
+#: includes/class-post-types.php:233
+msgid "Show Company Logos"
+msgstr ""
+
+#: includes/class-post-types.php:239
+msgid "Display company logos when available"
+msgstr ""
+
+#: includes/class-post-types.php:256
+msgid "Available Testimonials"
+msgstr ""
+
+#: includes/class-post-types.php:262
+msgid "Add"
+msgstr ""
+
+#: includes/class-post-types.php:270
+msgid "Selected Testimonials"
+msgstr ""
+
+#: includes/class-post-types.php:277
+msgid "Remove"
+msgstr ""
+
+#: includes/class-post-types.php:290
+msgid "Use this shortcode to display the wall:"
+msgstr ""
+
+#: includes/class-post-types.php:293
+msgid "Copy and paste this shortcode into any post or page."
+msgstr ""
+
+#: includes/class-post-types.php:296
+msgid "Save the wall to get the shortcode."
+msgstr ""
+
+#: includes/class-shortcode.php:28
+msgid "Error: Wall ID is required and must be numeric."
+msgstr ""
+
+#: includes/class-shortcode.php:37
+msgid "Error: Wall not found or not published."
+msgstr ""
+
+#: includes/class-shortcode.php:56
+msgid "No testimonials found for this wall."
+msgstr ""
+
+#: includes/class-shortcode.php:106
+msgid "Previous testimonial"
+msgstr ""
+
+#: includes/class-shortcode.php:108
+msgid "Previous"
+msgstr ""
+
+#: includes/class-shortcode.php:113
+msgid "Next testimonial"
+msgstr ""
+
+#: includes/class-shortcode.php:115
+msgid "Next"
+msgstr ""
+
+#: includes/class-shortcode.php:120
+msgid "Play/Pause slideshow"
+msgstr ""
+
+#: includes/class-shortcode.php:122
+msgid "Play"
+msgstr ""
+
+#: includes/class-shortcode.php:123
+msgid "Pause"
+msgstr ""
+
+#: includes/class-shortcode.php:134
+msgid "Testimonial navigation"
+msgstr ""
+
+#: includes/class-shortcode.php:142
+msgid "Go to testimonial %d"
+msgstr ""
+
+#: includes/class-shortcode.php:179
+msgid "%s logo"
+msgstr ""
+
+#: assets/js/frontend.js:45
+msgid "Loading..."
+msgstr ""
+
+#: assets/js/frontend.js:46
+msgid "Error loading testimonials"
+msgstr ""
+
+#: assets/js/frontend.js:49
+msgid "Pause"
+msgstr ""
+
+#: assets/js/frontend.js:50
+msgid "Play"
+msgstr ""

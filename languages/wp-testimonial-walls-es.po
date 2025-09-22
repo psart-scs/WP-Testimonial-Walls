@@ -1,0 +1,105 @@
+# Spanish translation for WP Testimonial Walls
+# Copyright (C) 2024 psart-scs
+# This file is distributed under the same license as the WP Testimonial Walls plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Testimonial Walls 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/psart-scs/WP-Testimonial-Walls/issues\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: 2024-01-01T00:00:00+00:00\n"
+"Last-Translator: psart-scs\n"
+"Language-Team: Spanish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: wp-testimonial-walls\n"
+
+msgid "Testimonial Walls"
+msgstr "Muros de testimonios"
+
+msgid "Walls"
+msgstr "Muros"
+
+msgid "Testimonials"
+msgstr "Testimonios"
+
+msgid "Settings"
+msgstr "Configuración"
+
+msgid "Theme Mode"
+msgstr "Modo de Tema"
+
+msgid "System Default"
+msgstr "Predeterminado del Sistema"
+
+msgid "Light Mode"
+msgstr "Modo Claro"
+
+msgid "Dark Mode"
+msgstr "Modo Oscuro"
+
+msgid "Choose the theme mode for testimonial walls. System Default follows user's browser/OS preference."
+msgstr "Elija el modo de tema para los muros de testimonios. El predeterminado del sistema sigue la preferencia del navegador/SO del usuario."
+
+msgid "Testimonial"
+msgstr "Testimonio"
+
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+msgid "Add New Testimonial"
+msgstr "Añadir nuevo testimonio"
+
+msgid "Edit Testimonial"
+msgstr "Editar testimonio"
+
+msgid "New Testimonial"
+msgstr "Nuevo testimonio"
+
+msgid "View Testimonial"
+msgstr "Ver testimonio"
+
+msgid "Search Testimonials"
+msgstr "Buscar testimonios"
+
+msgid "No testimonials found"
+msgstr "No se encontraron testimonios"
+
+msgid "No testimonials found in Trash"
+msgstr "No se encontraron testimonios en la papelera"
+
+msgid "All Testimonials"
+msgstr "Todos los testimonios"
+
+msgid "Wall"
+msgstr "Muro"
+
+msgid "Add New Wall"
+msgstr "Añadir nuevo muro"
+
+msgid "Edit Wall"
+msgstr "Editar muro"
+
+msgid "New Wall"
+msgstr "Nuevo muro"
+
+msgid "View Wall"
+msgstr "Ver muro"
+
+msgid "Search Walls"
+msgstr "Buscar muros"
+
+msgid "No walls found"
+msgstr "No se encontraron muros"
+
+msgid "No walls found in Trash"
+msgstr "No se encontraron muros en la papelera"
+
+msgid "All Walls"
+msgstr "Todos los muros"
+
+msgid "No testimonials found for this wall."
+msgstr "No se encontraron testimonios para este muro."

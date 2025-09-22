@@ -1,0 +1,59 @@
+/**
+ * WP Testimonial Walls - RTL (Right-to-Left) Styles
+ * Overrides for RTL languages like Arabic, Hebrew, etc.
+ */
+
+/* RTL Base Adjustments */
+.rtl .wp-testimonial-wall__content::before {
+  left: auto;
+  right: -0.3em;
+}
+
+.rtl .wp-testimonial-wall__author {
+  direction: rtl;
+}
+
+.rtl .wp-testimonial-wall__slider-controls {
+  direction: ltr; /* Keep controls in LTR for consistency */
+}
+
+.rtl .wp-testimonial-wall__control--prev {
+  margin-left: 0;
+  margin-right: -22px;
+}
+
+.rtl .wp-testimonial-wall__control--next {
+  margin-right: 0;
+  margin-left: -22px;
+}
+
+.rtl .wp-testimonial-wall__control--play-pause {
+  position: absolute;
+  top: -3rem;
+  left: -3rem;
+  right: auto;
+}
+
+/* RTL Grid adjustments */
+.rtl .wp-testimonial-wall--grid .wp-testimonial-wall__container,
+.rtl .wp-testimonial-wall--masonry .wp-testimonial-wall__container {
+  direction: rtl;
+}
+
+.rtl .wp-testimonial-wall__item {
+  direction: rtl;
+  text-align: right;
+}
+
+/* RTL Slider adjustments */
+.rtl .wp-testimonial-wall--slider .wp-testimonial-wall__container {
+  direction: rtl;
+}
+
+@media (max-width: 768px) {
+  .rtl .wp-testimonial-wall__control--play-pause {
+    left: auto;
+    right: 0;
+    top: -3rem;
+  }
+}
